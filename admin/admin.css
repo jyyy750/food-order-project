@@ -1,0 +1,143 @@
+/*
+    Author: JY Yu;
+    Theme: Restaurant Food Order Website admin;
+    version: 1.0;
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", "微软雅黑 Light";
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width:30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #005566;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #004766;
+}
+
+.btn-secondary{
+    background-color: #5d92a2;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.btn-secondary:hover{
+    background-color: #5d84a2;
+}
+
+.btn-danger{
+    background-color: #ff6a00;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ff2a00;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #476600;
+}
+
+.menu ul li a:hover{
+    color:#00661c;
+}
+
+/* CSS for Main Content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3%;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color: #476600;
+    color: white;
+}
+
+/* CSS for Login */
+
+.login{
+    width:20%;
+    border:1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+
+}
+
